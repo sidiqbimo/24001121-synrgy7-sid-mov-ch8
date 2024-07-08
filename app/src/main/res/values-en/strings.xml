@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nowPlaying">Playing Now</string>
+    <string name="details">Details</string>
+    <string name="accountTab">My Account</string>
+    <string name="accountdesc">These are your account information. If you want to change it, edit the field below, then, tap on \"Simpan Perubahan\"</string>
+    <string name="languageCheck">English is now automatically applied in this app.</string>
+    <string name="moviePoster">Film poster</string>
+    <string name="profPic">Profile picture</string>
+    <string name="loginButton">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="regButton">Register</string>
+    <string name="notHaveAcc">Do not have an account? Create one now!</string>
+    <string name="uname">Username</string>
+    <string name="fullName">Full Name</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="addresssHome">Address</string>
+    <string name="saveChangeButton">Save Changes</string>
+    <string name="logoutButton">Log Out</string>
+    <string name="confirmPass">Confirm Password</string>
+    <string name="registerNewAccount">Register New Account</string>
+</resources>

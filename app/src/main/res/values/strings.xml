@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">myMovie</string>
+
+    <string name="nowPlaying">Tayang Sekarang</string>
+    <string name="details">Detail Film</string>
+    <string name="accountTab">Akun Saya</string>
+    <string name="accountdesc">Berikut ini adalah informasi Akun Anda. Apabila ingin melakukan perubahan, silakan sunting informasi di bawah lalu tekan \"Simpan Perubahan\"</string>
+    <string name="languageCheck">Bahasa Indonesia otomatis diterapkan untuk aplikasi ini</string>
+    <string name="moviePoster">Poster film</string>
+    <string name="profPic">Foto profil</string>
+    <string name="loginButton">Masuk Sekarang</string>
+    <string name="email">Surel</string>
+    <string name="password">Kata Sandi</string>
+    <string name="regButton">Daftar</string>
+    <string name="notHaveAcc">Belum memiliki akun? Buat sekarang!</string>
+    <string name="uname">Nama Pengguna</string>
+    <string name="fullName">Nama Lengkap</string>
+    <string name="birthdate">Tanggal Lahir</string>
+    <string name="addresssHome">Alamat</string>
+    <string name="saveChangeButton">Simpan Perubahan</string>
+    <string name="logoutButton">Log Keluar</string>
+    <string name="confirmPass">Konfirmasi Sandi</string>
+    <string name="registerNewAccount">Daftarkan Akun Baru</string>
+</resources>
