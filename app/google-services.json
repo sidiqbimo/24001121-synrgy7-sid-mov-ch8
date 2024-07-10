@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941264638661",
+    "project_id": "test-app-dfdeb",
+    "storage_bucket": "test-app-dfdeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941264638661:android:30c1f8e7af586c02c756ac",
+        "android_client_info": {
+          "package_name": "com.bimobelajar.mymovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941264638661-lhile56e82kf4oa497n63hfmhud7u5k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpqkJbNDkyXiBwcS_lEWyGaCrNwSAXPVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941264638661-lhile56e82kf4oa497n63hfmhud7u5k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,6 +2,8 @@ plugins {
     id("com.android.application")
     id("kotlin-android")
     id("androidx.navigation.safeargs")
+    id("com.google.gms.google-services")
+    id("com.google.firebase.firebase-perf")
 }
 
 android {
@@ -31,19 +33,26 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    flavorDimensions += "version"
-    productFlavors {
-        create("free") {
-            dimension = "version"
-            applicationIdSuffix = ".free"
-            versionNameSuffix = "-free"
-        }
-        create("premium") {
-            dimension = "version"
-            applicationIdSuffix = ".prem"
-            versionNameSuffix = "-prem"
+
+    configurations {
+        all {
+            exclude(group = "com.google.protobuf", module = "protobuf-lite")
         }
     }
+
+//    flavorDimensions += "version"
+//    productFlavors {
+//        create("free") {
+//            dimension = "version"
+//            applicationIdSuffix = ".free"
+//            versionNameSuffix = "-free"
+//        }
+//        create("premium") {
+//            dimension = "version"
+//            applicationIdSuffix = ".prem"
+//            versionNameSuffix = "-prem"
+//        }
+//    }
 }
 
 dependencies {
@@ -78,6 +87,11 @@ dependencies {
     implementation(libs.espressoContrib)
     implementation(libs.androidx.espresso.core)
     implementation(libs.hamacrestLibrary)
+    implementation(platform(libs.firebaseBom))
+    //noinspection UseTomlInstead
+    implementation("com.google.firebase:firebase-analytics")
+    implementation(libs.firebase.perf)
+    implementation(libs.firebase.perf.ktx)
 
     debugImplementation(libs.chucker)
     releaseImplementation(libs.chuclerNoOp)
